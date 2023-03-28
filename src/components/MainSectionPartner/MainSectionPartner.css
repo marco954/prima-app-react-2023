@@ -1,0 +1,43 @@
+.partner {
+    background-color: #F0F0F0;
+    padding: 3rem 0;
+}
+
+.partner svg {
+    width: 100%
+}
+
+.partner div {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.partner h2{
+    display: none;
+}
+
+/* SECTION PARTNER */
+@media screen and (min-width: 481px) and (max-width: 833px){
+
+.partner{
+    padding: 3rem 4rem;
+}
+
+.partner div{
+        gap:2.5rem;
+}
+.testimonial h2{
+    font-size: 2.5em;
+}
+.quote{
+    flex-wrap:nowrap;
+}
+}
+@media screen and (min-width: 834px){
+    .quote{
+        flex-wrap: nowrap;
+    }
+    .partner h2{display: block;}
+}

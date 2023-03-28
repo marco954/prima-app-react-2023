@@ -1,0 +1,123 @@
+footer {
+    background-color: #1D1B1F;
+    color: #FBFAFC;
+    padding: 1rem 2.5rem;
+    text-align: left;
+}
+.contact {
+
+    font-weight: 300;
+    
+}
+
+.contact>ul{
+    padding: 0px;
+}
+
+.copy div {
+    padding: 40px 0;
+    display: flex;
+    gap: 1.5rem;
+
+}
+
+.copy > span {
+    color: #D3D0D6;
+    font-weight: 300;
+
+}
+
+footer>div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: white;
+}
+.footnav {
+
+        display: flex;
+        flex-direction: column;
+        padding:0;
+}
+.copy span{
+    font-size: 0.85rem;
+}
+
+
+
+footer hr{
+    margin: 1.25rem 0;
+}
+
+.fa-brands {
+    font-size: 1.5625rem;
+}
+ul {
+    list-style-type: none;
+}
+
+/* SECTION FOOTER */
+@media screen and (min-width: 481px) and (max-width: 833px){
+
+footer p {
+    font-size: 1rem;
+}
+
+footer>div{
+    
+flex-direction: row;
+justify-content: space-between;
+}
+
+/* footer a+div{
+    display: flex;
+    justify-content: space-around;
+
+} */
+footer>div>div{
+display: flex;
+gap: 3rem;
+}
+
+.copy span{
+
+margin-top: 30px;
+}
+
+}
+
+/* media */
+@media screen and (min-width: 834px){
+footer p {
+    font-size: 1rem;
+}
+
+footer>div{
+    
+flex-direction: row;
+justify-content: space-between;
+}
+
+/* footer a+div{
+    display: flex;
+    justify-content: space-around;
+
+} */
+footer>div>div{
+display: flex;
+gap: 3rem;
+}
+
+.copy span{
+
+margin-top: 30px;
+}
+
+ }

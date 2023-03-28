@@ -1,0 +1,21 @@
+header {
+    text-align: center;
+    /* background-image: url(/marco-veronelli/modulo-1/assets/sfondo\ header.svg); */
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    width: 90%;
+    margin: 6rem auto;
+
+}
+header p {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #706D73;
+}
+@media screen and (min-width: 834px){
+    header {
+        width: 39rem;
+    
+    }
+}
+

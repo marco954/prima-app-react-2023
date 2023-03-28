@@ -1,0 +1,16 @@
+.create {
+    background-color: #F0F0F0;
+    padding: 2rem;
+    text-align: left;
+}
+
+.create h3 {
+    color: #302E32;
+}
+
+.create button{
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+} 
