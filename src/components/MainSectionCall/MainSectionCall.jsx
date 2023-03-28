@@ -1,5 +1,7 @@
 import "./MainSectionCall"
-function MainSectionCall(){
+
+
+let MainSectionCall=()=>{
 
     return(
         <section className="create">

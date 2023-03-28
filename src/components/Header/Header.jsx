@@ -1,11 +1,14 @@
-import "./Header.css"
+import Button from "../Button"
+import "./Header.css"/* 
+import sfondo from "./assets/sfondo.svg" */
 
-function Header() {
-    return(<header>
+let Header=() =>{
+    return(
+    <header /* style={{backgroundImage:`url(${sfondo})`}} */>
         
         <h1>Basic landing page for big dream</h1>
         <p>minimal,responsive, accessibile</p>
-        <button>explore repo</button>
+        <Button>explore repo</Button>
     
 </header>)
     

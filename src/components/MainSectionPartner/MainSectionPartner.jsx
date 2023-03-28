@@ -1,6 +1,6 @@
 import "./MainSectionPartner.css"
 
-function MainSectionPartner(){
+let MainSectionPartner=()=>{
     return(<section className="partner">
             <h2>Partner</h2>
             <div>

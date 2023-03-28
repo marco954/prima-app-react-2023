@@ -4,7 +4,7 @@ import MainSectionPartner from "../MainSectionPartner"
 import MainSectionTest from "../MainSectionTest"
 import MainSectionWhy from "../MainSectionWhy"
 
-function Main() {
+let Main=()=> {
     
     return(
         <>

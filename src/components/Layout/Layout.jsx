@@ -5,10 +5,10 @@ import Footer from "../Footer"
 import "./Layout.css"
 
 
-function Layout() {
+let Layout=() =>{
     return(
         <>
-    <p>Layout</p>
+    
    <Nav></Nav>
     <Header></Header>
     <Main></Main>

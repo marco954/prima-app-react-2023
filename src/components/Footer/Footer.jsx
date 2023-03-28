@@ -1,8 +1,10 @@
 import"./Footer.css"
 
-function Footer() {
+let Footer=() =>{
     return(
+        
         <footer>
+            
         <div>
             <a href="##" className="mypage">Mypage</a>
             <div>

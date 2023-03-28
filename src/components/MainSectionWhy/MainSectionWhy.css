@@ -65,11 +65,11 @@
     
 
     .row{
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
 
     }
     .secondrow{
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         column-gap: 2rem;
     }
 

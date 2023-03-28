@@ -1,6 +1,6 @@
 import "./MainSectionHow.css"
 
-function MainSectionHow(){
+let MainSectionHow=()=>{
 
     return(
         <section className="Sectionhow">
