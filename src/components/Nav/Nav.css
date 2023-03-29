@@ -17,6 +17,7 @@ nav ul {
     gap: 3rem;
     display: flex;
     margin-top: 0;
+    display:none;
     
 }
 
@@ -24,6 +25,16 @@ nav a {
     text-decoration: none;
 }
 @media screen and (min-width: 481px) and (max-width: 833px){
+    #burgher{
+        display:none;
+    }
+    nav ul {
+        gap: 3rem;
+        display: flex;
+        margin-top: 0;
+        
+        
+    }
     nav {
         padding: 1.625rem 2rem;
     }
@@ -41,10 +52,20 @@ nav a {
     }
 }
 @media screen and (min-width: 834px){
+    #burgher{
+        display:none;
+    }
     nav{
         padding: 1.625rem 6.25rem 1.625rem 6.25rem;
     }
     nav a:visited {
         color: black;
+    }
+    nav ul {
+        gap: 3rem;
+        display: flex;
+        margin-top: 0;
+        
+        
     }
 }
