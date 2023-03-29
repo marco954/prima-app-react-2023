@@ -1,18 +1,26 @@
-import Nav from "../Nav"
+/* import Nav from "../Nav"
 import Header from "../Header"
 import Main from "../Main/Main"
-import Footer from "../Footer"
-import "./Layout.css"
+import Footer from "../Footer" */
+/* import "./Layout.css" */
+/* import ToDoList from "../ToDoList/ToDoList" */
+
+import ToDo from "../ToDo"
+
+
 
 
 let Layout=() =>{
     return(
         <>
     
-   <Nav></Nav>
+   {/* <Nav></Nav>
     <Header></Header>
     <Main></Main>
-    <Footer></Footer>
+    <Footer></Footer> */}
+    {/* <ToDoList></ToDoList> */}
+    <ToDo></ToDo>
+    
     </>
     
     
