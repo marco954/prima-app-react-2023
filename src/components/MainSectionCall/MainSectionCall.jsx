@@ -3,6 +3,8 @@ import "./MainSectionCall"
 
 let MainSectionCall=()=>{
 
+    
+
     return(
         <section className="create">
             <h2>Create the perfect landing page in minutes!</h2>
